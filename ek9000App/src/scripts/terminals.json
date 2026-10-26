@@ -1045,6 +1045,32 @@
 			}
 		},
 		{
+			"name": "EL3214",
+			"type": "AnalogIn",
+			"inputs": 4,
+			"outputs": 0,
+			"pdo_in_size": 8,
+			"pdo_out_size": 0,
+			"defaults": {
+				"EGU": "C",
+				"ESLO": "0.1"
+			}
+		},
+		{
+			"name": "EL3318",
+			"type": "AnalogIn",
+			"inputs": 8,
+			"outputs": 0,
+			"pdo_in_size": 16,
+			"pdo_out_size": 0,
+			"dtyp": "EL331X",
+			"defaults": {
+				"ESLO": "0.1",
+				"EGU": "C",
+				"LINR": "$(LINR=SLOPE)"
+			}
+		},
+		{
 			"name": "EL3314",
 			"type": "AnalogIn",
 			"inputs": 4,
